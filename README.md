@@ -1,6 +1,6 @@
 > ## ⚠️ Commercial Project / All Rights Reserved
 >
-> This repository is strictly for portfolio and evaluation purposes by potential employers. You may view and review the source code, but you do not have permission to copy, modify, distribute, or use this code for any personal or commercial projects.
+> This repository is for portfolio and evaluation purposes by potential employers. You may view and review the source code. The only other permitted use is running the unmodified app for your own personal, non-commercial budgeting, as described in [Use it in Claude](#use-it-in-claude). You do not have permission to modify, distribute, resell, share publicly, or use this code in any other personal or commercial project.
 >
 > © 2026 Alex Martin. All rights reserved.
 
@@ -8,9 +8,9 @@
 
 A personal finance dashboard that runs entirely in your browser: spending, budgets, net worth, investments, debt payoff and savings goals in one page. No account, no server, no tracking. Your data never leaves your device.
 
-**[▶ Open the live demo](https://tayloramartin220.github.io/Budget-App/budget-template/)** (loads with sample data)
+**[▶ Open the live demo](https://tayloramartin220.github.io/budget-app/)** (loads with sample data)
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Features
 
@@ -23,7 +23,7 @@ A personal finance dashboard that runs entirely in your browser: spending, budge
 - **Multi-currency**: USD, EUR and ISK accounts side by side, shown in the currency of your choice
 - **Light & dark themes**
 
-![Spending](screenshots/spending.png)
+![Spending](spending.png)
 
 ## How your data is stored
 
@@ -35,10 +35,26 @@ Everything is saved in your browser's local storage on the device you're using. 
 
 Clearing your browser's site data will erase saved data, so export a backup now and then.
 
+## Use it in Claude
+
+If you use [Claude](https://claude.ai), you can publish the app as your own private artifact and keep it in your artifacts list:
+
+1. Download [`index.html`](index.html). Open the file on GitHub and click the **Download raw file** button.
+2. Start a new chat in Claude and attach the file.
+3. Send this message:
+
+   ```
+   Publish this HTML file as an artifact exactly as it is, without changing any code.
+   ```
+
+Your artifact is private to you until you choose to share it. Data you enter is saved in your browser, the same way it works on the live demo. Click **Reset** to clear the sample data and start with your own.
+
+This permission covers personal use of the unmodified app only. Please don't share your artifact link publicly, modify the app, or redistribute it.
+
 ## Run it locally
 
-It's a single HTML file. Download `budget-template/index.html` and open it in any modern browser.
+It's a single HTML file. Download `index.html` and open it in any modern browser.
 
 ## License
 
-No license is granted. © 2026 Alex Martin. All rights reserved. You're welcome to try the live demo and review the code, but copying, modifying, distributing or using it in any project requires written permission. For inquiries, contact me through my GitHub profile.
+No license is granted. © 2026 Alex Martin. All rights reserved. You're welcome to try the live demo, review the code, and run the unmodified app for your own personal budgeting, either locally or as a private Claude artifact. Modifying, distributing, reselling or using it in any other project requires written permission. For inquiries, contact me through my GitHub profile.
