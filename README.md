@@ -1,0 +1,56 @@
+> ## ⚠️ Commercial Project / All Rights Reserved
+>
+> You may use the live demo for your own personal, non-commercial purposes. You do not have permission to copy, modify, distribute, resell, share publicly, or use this code in any other personal or commercial project.
+>
+> © 2026 Alex Martin. All rights reserved.
+
+# Budget App
+
+A private, browser-based personal finance dashboard. Track spending and budgets, import bank exports, and see net worth, investments, debt payoff and savings goals in one place. No account, no server, no tracking. Your data never leaves your device.
+
+**[▶ Try the live demo](https://tayloramartin220.github.io/Budget-App/)** (loads with sample data in US dollars and Icelandic krónur)
+
+![Dashboard](dashboard.png)
+
+## Features
+
+- **Dashboard**: net worth at a glance across cash, savings, retirement, investments, other assets and debt, plus progress rings for every savings goal and every debt
+- **Spending & transactions**: money in vs. out each month, spending by group and category, a six-month trend, and itemized entries linked to the account they were paid from, with optional notes
+- **Bank import**: drop in an Excel (.xlsx) or CSV export from your bank and review categories before anything is added. Payees and transfers you've categorized before fill in automatically
+- **Transfers**: move money between your own accounts without it counting as spending
+- **Assets**: a home, car or anything else of value, optionally linked to its loan to show your equity
+- **Accounts & investments**: account balances, holdings by asset class with planned monthly additions, and target allocations that show when you're off balance
+- **Debts**: credit cards, loans and mortgages with their original amount, so you can see how much you've paid off. Set a minimum and an extra monthly payment to see your payoff date, how many months sooner you'd be debt-free, and the interest you'd save
+- **Savings goals**: progress toward each target, how much you need to save per month to hit your date, and how much sooner an extra monthly contribution gets you there
+- **Multi-currency**: every amount can be in its own currency, and all totals convert into the one you choose. Add any currency and set your own exchange rates. Handy if you travel, live abroad or hold accounts in more than one country
+- **Light & dark themes**: switch any time with the Theme button
+- **No account or server**: it's a single file that runs in your browser
+
+![Spending](spending.png)
+
+![Accounts and investments](currencies.png)
+
+![Debts](debts.png)
+
+## Themes
+
+Light on the left, dark on the right. The app follows your device's setting by default.
+
+![Light and dark themes](themes.png)
+
+## How your data is stored
+
+Everything saves automatically in your browser's local storage on the device you're using. Nothing is uploaded.
+
+- **Export backup** downloads your data as a file. Use it to back up or move to another device, then open it there with **Load data**.
+- **Start over** clears everything so you can begin with a blank budget, or reloads the sample data.
+
+Clearing your browser's site data erases saved data, so export a backup now and then.
+
+## About this repository
+
+This repository contains the built demo only: a compiled `index.html` plus screenshots. The source code is not public.
+
+## License
+
+No license is granted. © 2026 Alex Martin. All rights reserved. You're welcome to try the live demo. Copying, modifying, distributing, reselling or using the code in any other project requires written permission. For inquiries, contact me through my GitHub profile.
